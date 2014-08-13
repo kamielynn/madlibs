@@ -8,6 +8,7 @@ $(function() {
 
     // grab the values from the input boxes, then append them to the DOM
     $(".adjective").empty().append($("input.adjective").val());
+    $(".verb").empty().append($("input.verb").val());
     $(".noun").empty().append($("input.noun").val());
     $(".noun2").empty().append($("input.noun2").val());
     $(".noun3").empty().append($("input.noun3").val());

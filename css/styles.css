@@ -2,9 +2,15 @@
 
 .container {
   padding-top: 50px;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 form {
 	max-width: 320px;
+}
+
+span {
+	font-weight: bold;
+	background-color: #ffff00;
+
 }
