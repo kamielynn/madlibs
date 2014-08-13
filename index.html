@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- stylesheets -->
+    <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.3/united/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <title>Evening Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- start form -->
+      <div id="questions">
+        <h1>Hey!</h1> 
+        <h3>My story is missing a few words. Can you help me out?</h3>
+        <hr>
+        <form role="form">
+          <div class="form-group">
+            <label for="adjective">Adjective</label>
+            <input for="adjective" class="form-control adjective" type="text" placeholder="Enter an adjective.">
+          </div>
+          <div class="form-group">
+            <label for="verb">Verb</label>
+            <input for="verb" class="form-control verb" type="text" placeholder="Enter a verb ending in 'ing.'">
+          </div>
+          <div class="form-group">
+            <label for="noun">Noun</label>
+            <input id="noun" class="form-control noun" type="text" placeholder="Enter a noun on your person.">
+          </div>
+          <div class="form-group">
+            <label for="noun2">Noun</label>
+            <input id="noun2" class="form-control noun2" type="text" placeholder="Enter a noun sensed by your olfactory system.">
+          </div>
+          <div class="form-group">
+            <label for="noun3">Noun</label>
+            <input id="noun3" class="form-control noun3" type="text" placeholder="Enter something that refers to a structure.">
+          </div>
+          <div class="form-group">
+            <label for="food">Noun</label>
+            <input id="food" class="form-control food" type="text" placeholder="Enter a palate pleaser.">
+          </div>
+          <div class="form-group">
+            <label for="thought">Noun or Gerund</label>
+            <input id="thought" class="form-control thought" type="text" placeholder="Enter what is on your mind.">
+          </div>
+          <div>
+          </div>
+        </form>
+        <button id="btn-click" type="submit" class="btn btn-primary btn-lg">Ready to read!</button>
+        <hr>
+      </div>
+      <!-- end form -->
+
+      <!-- start story -->
+      <div id="story">
+        <h1>Mad with the Libs</h1>
+        <hr>
+        <p>It has been such a <span class="adjective"></span> day. I needed fresh air after hours of <span class="verb"></span> so I put on my <span class="noun"></span> and hit the streets. The <span class="noun2"></span> aroma made me realize my tummy was talking so I stepped into a  <span class="noun3"></span> and ordered <span class="food"></span> to go, then drifted toward Embarcadero. I ended up at the port and sat down and watched the boats pass as I ate <span class="food"></span>, and <span class="thought"></span> meandered through my mind.</p>
+      
+        <video width="100%" height="" controls>
+          <source src="video/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      <div>
+      <button type="submit" class="btn btn-primary btn-lg" id="play-btn">Play Again?</button>
+
+      </div>
+
+      </div>
+      <!-- end story -->
+      
+      
+
+    </div>
+    <!-- scripts -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
